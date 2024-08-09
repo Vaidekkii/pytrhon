@@ -1,0 +1,13 @@
+# Creating a dictionary
+person = {
+    "name": "John",
+    "age": 30,
+    "city": "New York"
+}
+# Accessing values
+print(person["name"])  # Output: John
+# Adding a new key-value pair
+person["email"] = "john@example.com"
+# Iterating through the dictionary
+for key, value in person.items():
+    print(key, ":", value)
